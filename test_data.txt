@@ -1,0 +1,158 @@
+MENU-DRIVEN CALCULATOR - TEST DATA (Saikat Jana, ERP 00353)
+
+=== test1_normal : INPUTS (one per line) ===
+1
+12
+8
+7
+--- OUTPUT ---
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Enter first number: Enter second number: 12 + 8 = 20.00
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Thank you for using the calculator. Exiting...
+
+=== test2_boundary : INPUTS (one per line) ===
+4
+0
+5
+7
+--- OUTPUT ---
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Enter first number: Enter second number: 0 / 5 = 0.00
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Thank you for using the calculator. Exiting...
+
+=== test3_invalid : INPUTS (one per line) ===
+4
+10
+0
+3
+abc
+9
+7
+--- OUTPUT ---
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Enter first number: Enter second number: Error: Division by zero is not allowed.
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Enter first number: Invalid number. Enter numeric values only.
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Invalid choice. Select 1 to 7.
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Thank you for using the calculator. Exiting...
+
+=== test4_valid_scenario : INPUTS (one per line) ===
+5
+2
+10
+6
+17
+5
+2
+5
+9.5
+7
+--- OUTPUT ---
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Enter first number: Enter second number: 2 ^ 10 = 1024.00
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Enter first number: Enter second number: 17 % 5 = 2.00
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Enter first number: Enter second number: 5 - 9.5 = -4.50
+
+===== CALCULATOR MENU =====
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Power
+6. Modulus
+7. Exit
+Enter your choice (1-7): Thank you for using the calculator. Exiting...
